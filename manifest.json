@@ -1,0 +1,25 @@
+{
+  "manifest_version": 2,
+  "name": "Dark Mode Settings",
+  "version": "1.1",
+  "description": "Switch websites to dark mode for easier reading.",
+  "permissions": [
+    "activeTab",
+    "storage"
+  ],
+  "browser_action": {
+    "default_title": "Dark Mode Settings",
+    "default_popup": "popup.html"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "content_scripts": [
+    {
+      "matches": ["<all_urls>"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
