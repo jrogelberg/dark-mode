@@ -13,6 +13,11 @@ Dark Mode is a simple browser extension that seamlessly converts any website int
 - **Customizable**: Excludes specific elements (like charts and graphs) from inversion for better readability.
 - **Shadow DOM Support**: Applies dark mode even to elements within Shadow DOMs for comprehensive coverage.
 
+## 🌄 Examples
+![image](https://github.com/user-attachments/assets/c8f362fd-e5d6-46b0-b2ef-250efc97fa04)
+![image](https://github.com/user-attachments/assets/4f67d202-c0b4-4c4c-b580-073c2b916660)
+
+
 ## 🚀 Installation
 
 1. Clone this repository or download the source code.
@@ -40,6 +45,9 @@ To customize which elements should not be inverted:
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🏃‍♂️ Next Steps
+- Figure out how to get the extension to work on all sites. Some sites like Zillow do not work at all...
 
 ## 🙏 Acknowledgments
 
